@@ -12,7 +12,7 @@ const Deletehotel = () => {
         var name = document.getElementById("hotel").value;
         console.log(name)
         var requestOptions = {
-            method: 'GET',
+            method: 'DELETE',
             headers: {
             }
         };

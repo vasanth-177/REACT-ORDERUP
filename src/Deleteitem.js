@@ -15,7 +15,7 @@ const Deleteitem = () => {
         var item = document.getElementById("item").value;
         console.log(name)
         var requestOptions = {
-            method: 'GET',
+            method: 'DELETE',
             headers: {
             }
         };
